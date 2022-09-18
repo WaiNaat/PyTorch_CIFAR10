@@ -4,6 +4,11 @@
 - I also share the **weights** of these models, so you can just load the weights and use them.
 - The code is highly re-producible and readable by using PyTorch-Lightning.
 
+## What Changed After Fork?
+### ResNet
+Changed model slightly so that it does not reuses the same ReLU layer in single block.
+
+
 ## Statistics of supported models
 | No. |     Model    | Val. Acc. | No. Params |   Size |
 |:---:|:-------------|----------:|-----------:|-------:|
